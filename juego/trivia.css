@@ -1,0 +1,18 @@
+.contenedor {
+    /*
+    width: 98vw;
+    height: 97vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    */
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+
+}
+
+#btns #btn1, #btns #btn2, #btns #btn3, #btns #btn4{
+    font-family: "akhand_softbold";
+}

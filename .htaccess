@@ -1,0 +1,21 @@
+<IfModule mod_expires.c>
+    ExpiresActive On
+    # Expiración de archivos CSS y JS
+    ExpiresByType text/css "access plus 1 second"
+    ExpiresByType application/javascript "access plus 1 second"
+    ExpiresByType application/x-javascript "access plus 1 second"
+
+    # Expiración de imágenes
+    ExpiresByType image/jpeg "access plus 1 second"
+    ExpiresByType image/png "access plus 1 second"
+    ExpiresByType image/gif "access plus 1 second"
+
+    # Expiración de archivos HTML
+    ExpiresByType text/html "access plus 1 second"
+</IfModule>
+RewriteEngine On
+
+# Eliminar la extensión .php de la URL
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [L]
