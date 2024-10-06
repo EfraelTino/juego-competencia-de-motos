@@ -32,6 +32,15 @@
 .bg-mecanica {
   background-image: url(juego/images/bg-comojugar.png);
 }
+.bg-terminos{
+  background-image: url(images/bg-politica.webp);
+}
+.bg-cuerpo{
+  background-image: url(images/bg-cuerpo.webp);
+}
+.bg-header{
+  background-image: url(images/bg_terminoarriba.webp);
+}
 .font-poppins {
   font-family: "Poppins";
 }

@@ -1,4 +1,4 @@
-const API = "https://aniversariohero.com/her/logica/action.php";
+const API = "https://aniversariohero.com/beta/logica/action.php";
 // const API = "http://localhost/hero/logica/action.php";
 
 const formularioItem = document.getElementById("formcontainer");

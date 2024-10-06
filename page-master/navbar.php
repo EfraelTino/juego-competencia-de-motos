@@ -58,7 +58,7 @@
 
 
 
-<div class="sticky top-0 right-0 px-4 py-2 bg-red z-[90] md:hidden bg-white grid grid-cols-5 justify-between left-0 items-center">
+<div class="sticky top-0 right-0 px-4 py-2 bg-red z-[90] md:hidden bg-white grid grid-cols-5 justify-between left-0 items-center w-full">
     <div class="col-span-2">
         <img src="./images/hero-logo-movil.webp" class="w-[200px]" alt="">
     </div>

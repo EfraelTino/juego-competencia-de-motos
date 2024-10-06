@@ -468,7 +468,7 @@ if (isset($_GET['d'])) {
       incrementProgress();
     });
     // const API = "http://localhost/hero/logica/action.php";
-    const API = "https://aniversariohero.com/her/logica/action.php";
+    const API = "https://aniversariohero.com/beta/logica/action.php";
     // https://aniversariohero.com/her/logica/action.php
     let data = document.getElementById('intentos').textContent;
     let identidad = document.getElementById('cedula').textContent;
